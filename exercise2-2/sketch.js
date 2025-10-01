@@ -22,5 +22,12 @@ function draw() {
     rect(0,height/2,width,height/10);
     noStroke();
 
+    // character
+
+    fill(0,0,150);
+    rect(mouseX-25,mouseY+25,50,100)
+    fill(200,150,150)
+    square(mouseX-35,mouseY-35,70);
+
     
 }
